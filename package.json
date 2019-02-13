@@ -1,0 +1,26 @@
+{
+  "name": "dev_mastery_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "jest src --watch"
+  },
+  "keywords": [],
+  "author": "Bill Sourour <bill@devmastery.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^24.1.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
