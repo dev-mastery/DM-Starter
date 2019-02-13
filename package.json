@@ -5,21 +5,25 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "test": "jest src --watch"
+    "test": "jest src --watch",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "Bill Sourour <bill@devmastery.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "jest": "^24.1.0",
-    "parcel-bundler": "^1.11.0"
+    "jest-dom": "^3.1.1",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "1.16.4",
+    "react-testing-library": "^5.8.0",
+    "standard": "^12.0.1"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   }
