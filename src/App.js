@@ -3,9 +3,9 @@ import React from 'react'
 export default function App () {
   return (
     <section className='App'>
-      <h1>Dev Mastery Starter</h1>
+      <h1>Posterz Starter</h1>
       <p>
-        Hello from <a href='https://devmastery.com'>Dev Mastery!</a>
+        Watch the video at <a href='https://devmastery.com'>Dev Mastery!</a>
       </p>
     </section>
   )
